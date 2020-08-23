@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hbd"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HBD Na Ka My Friend 🎂"
+        android:textSize="30sp"
+        android:background="#7AFDEE"
+        android:textColor="#0B1C7A"
+        android:layout_above="@id/imageView"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:background="#92DCFD"
+        android:textColor="#074A80"
+        android:text="I wish you happy everyday na myfriend love you💘💘💘"
+        android:textSize="30sp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mind" />
+
+</RelativeLayout>
